@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="CSS/Custom.css">
+    <script src="bootstrap-4.3.1-dist/js/jquery-3.4.1.js"></script>
+    <script src="bootstrap-4.3.1-dist/js/popper.min.js"></script>
+    <script src="bootstrap-4.3.1-dist/js/bootstrap.js"></script>
+    <style>
+        input[type=text] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 1px solid #555;
+            outline: none;
+        }
+
+        input[type=email] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 1px solid #555;
+            outline: none;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="logo">
+    <img src="Images/new_logo1.gif" alt="Logo" width="150" height="150">
+</div>
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <!-- Brand -->
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+        <!-- Links -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+            </li>
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Products and Services
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="Computers&ComputerAccesories.html">Computers and Computer Accessories</a>
+                    <a class="dropdown-item" href="#">VSAT Installation</a>
+                    <a class="dropdown-item" href="CCTV.html">CCTV Installation</a>
+                    <a  class="dropdown-item" href="#">Graphic Design</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="FAQ.html">FAQs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+        </ul>
+
+    </div>
+
+</nav>
+
+<br>
+<h2 class="text-center">Contact Us</h2>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <form action="" method="post" clas="form-group">
+                <input type="text" name="Full Names" class="form-control" placeholder="* Full Names" required>
+                <br>
+                <input type="email" name="email_address" class="form-control" placeholder="* Email Address" required>
+                <br>
+                <input type="text" name="tel_number" class="form-control" placeholder="Telephone Number" required>
+                <br>
+                <textarea class="form-control" name="Comments" id="comments" cols="30" rows="10" placeholder="Your Comments"></textarea>
+                <br>
+                <p class="text-center"><button class="btn btn-success">Submit</button></p>
+
+            </form>
+        </div>
+        <div class="col-sm-6">
+            <p class="text-center">
+                <img src="Images/smiley.jpg" alt="smiley_face" width="200" height="100">
+            </p>
+            <hr>
+            <h3 class="text-center">We Care and It Shows!</h3>
+            <h4 class="text-center" class="justify-content-center" >Reach us: <br> Tel: 020 453 555 <br> WhatsApp: +254 7390 6811 <br> E-mail: customer@satisfaction.co.ke </h4>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
